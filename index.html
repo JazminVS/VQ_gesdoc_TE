@@ -12,7 +12,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <script src="https://unpkg.com/feather-icons"></script>
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -32,11 +31,11 @@
 
     <!-- Custom styles for this template -->
     <link href="css/carousel.css" rel="stylesheet">
-
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-vq">
         <img class="bd-placeholder-img rounded-circle" max-width="50" height="50" src="img/logo.jpg">
         <a class="navbar-brand" href="/">Vera Quintana Asociados</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,7 +44,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/"><span><i data-feather="home"></i></span></a>
                 </li>
             </ul>
         </div>
@@ -60,6 +59,7 @@
     </div>
 
 
+
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -71,21 +71,20 @@
             <div class="col-lg-4">
                 <img class="bd-placeholder-img rounded-circle .img-fluid" max-width="140" height="140" src="img/nubevq.png">
                 <h2>NUBE VQ</h2>
-                <i data-feather="circle"></i>
                 <p>Es una aplicación de software libre del tipo Servicio de alojamiento de archivos, que permite el almacenamiento en línea y aplicaciones en línea.</p>
-                <i data-feather="circle"></i><p><a class="btn btn-outline-primary" href="#" role="button">View details &raquo;</a></p>
+                <p><a class="btn btn-outline-primary" href="https://srvnubevq/nubevq" role="button">Acceder &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="bd-placeholder-img rounded-circle .img-fluid" max-width="140" height="140" src="img/gesdoc.png">
                 <h2>Gestion Documental Transelectric</h2>
                 <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                <p><a class="btn btn-outline-danger" href="#" role="button">View details &raquo;</a></p>
+                <p><a class="btn btn-outline-danger" href="php/index.php" role="button">Acceder &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
             <div class="col-lg-4">
                 <img class="bd-placeholder-img rounded-circle .img-fluid" max-width="140" height="140" src="img/help_desk.png">
                 <h2>Help Desk</h2>
                 <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <p><a class="btn btn-outline-info" href="#" role="button">View details &raquo;</a></p>
+                <p><a class="btn btn-outline-info" href="#" role="button">Acceder &raquo;</a></p>
             </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
 
@@ -106,6 +105,8 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
 
-
+<script>
+    feather.replace()
+</script>
 </body>
 </html>
